@@ -4,14 +4,16 @@
 # V = vertical velocity
 # V0 = initial vertical velocity
 
-# U = horizontal velocity (is a constant unless acted on by an external force such a wind)
+# hv = horizontal velocity (is a constant unless acted on by an external force such a wind)
 # g = gravitational acceleration
+t = 4
+g = 9.8*t
 
 # horizontal component
-# U = U0
-# x = U0t
+# hv = U0
+# x = hv * t
 
-x = U * t
+# x = hv * t
 
 # vertical component
 # V = V0 - g t
