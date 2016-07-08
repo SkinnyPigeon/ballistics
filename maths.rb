@@ -2,12 +2,16 @@
 # y = height
 # x = distance
 # V = vertical velocity
-# U = horizontal velocity
+# V0 = initial vertical velocity
+
+# U = horizontal velocity (is a constant unless acted on by an external force such a wind)
 # g = gravitational acceleration
 
 # horizontal component
 # U = U0
 # x = U0t
+
+x = U * t
 
 # vertical component
 # V = V0 - g t
