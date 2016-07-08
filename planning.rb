@@ -5,10 +5,11 @@ require('pry-byebug')
 #describe velocity
 class Physics
 
-  attr_reader( :current_speed )
+  attr_reader( :current_speed, :current_angle )
 
   def initialize
     @current_speed = 0
+    @current_angle = 0
   end
 
   def gravity( seconds )
@@ -25,7 +26,19 @@ class Physics
     return distance
   end
 
+  def angle( degrees )
+    @current_angle = degrees
+  end
 
 end
+
+
+
+
+
+
+
+
+
 
 

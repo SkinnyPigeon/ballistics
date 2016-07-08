@@ -22,4 +22,21 @@ class TestPhysics < MiniTest::Test
     assert_equal( 10, @physics.distance( 2 ))
   end
 
+  def test_angle
+    @physics.angle( 45 )
+    assert_equal( 45, @physics.current_angle )
+  end
+
 end
+
+
+
+
+
+
+
+
+
+
+
+
